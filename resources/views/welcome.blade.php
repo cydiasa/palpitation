@@ -108,7 +108,7 @@
                                 <div class="links"style="margin-top:2em">
                                     <a href="/">Homepage</a>
                                     <a href="/dashboard">Dashboard</a>
-                                    <a href="">Sourcecode</a>
+                                    <a href="https://github.com/cydiasa/palpitation">Sourcecode</a>
                                     <a href="/login">Login</a>
                                     <a href="/register">Register</a>
                                 </div>
