@@ -38,7 +38,7 @@
                                     <th>
                                         {{ $item->name }}
                                     </th>
-                                    <th style='color:{!! ($item->value <= 200)? 'red' : (($item->value <= 50) ? 'green' : 'orange') !!}!important'>
+                                    <th style='color:{!! ($item->value >= 200)? 'red' : (($item->value <= 50) ? 'green' : 'orange') !!}!important'>
                                         {{ $item->value }}
                                     </th>
                                     <th>
