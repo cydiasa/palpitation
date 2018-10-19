@@ -6,6 +6,7 @@
         <div class="col-md-8">
 
                 <p>Test username: cydiasa@gmail.com and password: meowmix</p>
+                <p>You can also <a href="/register">click here</a> to make your own account using your email.</p>
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
                 <div class="card-body">
