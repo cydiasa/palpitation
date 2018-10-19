@@ -42,7 +42,7 @@
                                             {{ $item->caffeineSources[0]->name }}
                                     </th>
 
-                                    <th style="color:{!! (($item->units * $item->caffeineSources[0]->value) >= 200)?'red':((($item->units * $item->caffeineSources[0]->value) <= 50)?'green':'yellow') !!}!important">
+                                    <th style="color:{!! (($item->units * $item->caffeineSources[0]->value) >= 200)?'red':((($item->units * $item->caffeineSources[0]->value) <= 50)?'green':'orange') !!}!important">
                                             {{ $item->units * $item->caffeineSources[0]->value }}
                                         </a>
                                     </th>
