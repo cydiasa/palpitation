@@ -27,6 +27,22 @@ class CaffeineSourceSeeder extends Seeder
                 200,
                 'The manufacturers claim the drink will give you 5 hours of energy without crashing. The drink is non-carbonated and sweetened with Sucralose (Splenda).'),
             array(
+                'Monster Ultra Sunrise',
+                150,
+                'A refreshing orange beverage that has 75mg of caffeine per serving. Every can has two servings.'),
+            array(
+                'Black Coffee',
+                95,
+                'The classic, the average 8oz. serving of black coffee has 95mg of caffeine.'),
+            array(
+                'Americano',
+                77,
+                'Sometimes you need to water it down a bit... and in comes the americano with an average of 77mg. of caffeine per serving.'),
+            array(
+                'Sugar free NOS',
+                260,
+                'Another orange delight without the sugar. It has 130 mg. per serving and each can has two servings.'),
+            array(
                 'RootJack Caffeinated Pirate Root Beer',
                 120,
                 'This product would be considered more of an energy drink than a  rootbeer soda because of its high caffeine content and Rootjack\'s use of Vitamin C and Guarana. In fact, their website describes the beverage as a "Pirate Energy Drink" .'),

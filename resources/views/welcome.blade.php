@@ -100,6 +100,7 @@
                                         <p>
                                             We are feinds of everything caffeine here at Palpitation Inc and in our persuite to drink the most amount, we have found out that magical things happen after 500Mg of unadulterated caffeine pulsing through our vains.
                                         </p>
+                                        <p>Click on <a href="/register">register</a> to create an account or visit <a href="/login">login</a> to use the test user!</p>
                                     </div>
                                 </div>
 
