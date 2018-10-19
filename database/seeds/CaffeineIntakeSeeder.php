@@ -17,6 +17,13 @@ class CaffeineIntakeSeeder extends Seeder
                 'user_id'               => 1,
                 'caffeine_source_id'    => rand(1,17),
                 'units'                 => rand(1,5),
+                'created_at'            => Carbon::now()
+            ]);
+
+            DB::table('caffeine_intakes')->insert([
+                'user_id'               => 1,
+                'caffeine_source_id'    => rand(1,17),
+                'units'                 => rand(1,5),
                 'created_at'            => Carbon::now()->today()
             ]);
 
