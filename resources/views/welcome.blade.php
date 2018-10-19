@@ -103,15 +103,17 @@
                                     </div>
                                 </div>
 
-                                <img src="https://media.giphy.com/media/oZEBLugoTthxS/giphy.gif" alt="Palpitation" />
 
-                                <div class="links"style="margin-top:2em">
+                                <div class="links"style="margin-top:2em; margin-bottom:2em">
                                     <a href="/">Homepage</a>
                                     <a href="/dashboard">Dashboard</a>
                                     <a href="https://github.com/cydiasa/palpitation">Sourcecode</a>
                                     <a href="/login">Login</a>
                                     <a href="/register">Register</a>
                                 </div>
+
+                                <img src="https://media.giphy.com/media/oZEBLugoTthxS/giphy.gif" alt="Palpitation" />
+
 
                                 <div class="links" style="margin-top:5em">
                                      Created by Shawn Azar for MJFreeway
