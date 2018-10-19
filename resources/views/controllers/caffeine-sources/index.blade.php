@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-md-11">
             View All Caffeine Sources
-            <p><sub>Hover over a value to see the percentage effect of each drink on your inatke</sub></p>
+            <p><sub>Hover over a value to see the percentage effect of each drink on your intake</sub></p>
         </div>
         <div class="col-md-1">
             <a href="/dashboard/caffeine-sources/create" class="btn btn-sm btn-success" data-toggle="tooltip" data-placement="top" title="Create a new resource" >
