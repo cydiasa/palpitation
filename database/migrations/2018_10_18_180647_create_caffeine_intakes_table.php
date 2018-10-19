@@ -15,10 +15,10 @@ class CreateCaffeineIntakesTable extends Migration
     {
         Schema::create('caffeine_intakes', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('caffeine_source_id')->unsigned();
-            $table->foreign('caffeine_source_id')->references('id')->on('caffeine_sources');
             $table->integer('units');
+            $table->integer('caffeine_source_id')->unsigned();
             $table->integer('user_id')->unsigned();
+            $table->foreign('caffeine_source_id')->references('id')->on('caffeine_sources');
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
             $table->softDeletes();
