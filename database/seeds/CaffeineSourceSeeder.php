@@ -90,6 +90,10 @@ class CaffeineSourceSeeder extends Seeder
                 'Quad Energy',
                 140,
                 'Generated product'),
+            array(
+                'Home made cup of Coffee - With Love',
+                140,
+                'Home made cup of coffee, best enjoyed with a dog friend.')
         );
 
         foreach ($testDrinks as $key => $value) {
