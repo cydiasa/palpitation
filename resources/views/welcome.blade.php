@@ -115,7 +115,7 @@
                                 <img src="https://media.giphy.com/media/oZEBLugoTthxS/giphy.gif" alt="Palpitation" />
 
 
-                                <div class="links" style="margin-top:5em">
+                                <div class="links" style="margin-top:2em">
                                      Created by Shawn Azar for MJFreeway
                                 </div>
                             </div>
