@@ -12,13 +12,14 @@ class CaffeineIntakeSeeder extends Seeder
      */
     public function run()
     {
+        DB::table('caffeine_intakes')->insert([
+            'user_id'               => 1,
+            'caffeine_source_id'    => rand(1,17),
+            'units'                 => rand(1,5),
+            'created_at'            => Carbon::now()
+        ]);
+
         for ($i=0; $i < 10; $i++) {
-            DB::table('caffeine_intakes')->insert([
-                'user_id'               => 1,
-                'caffeine_source_id'    => rand(1,17),
-                'units'                 => rand(1,5),
-                'created_at'            => Carbon::now()
-            ]);
 
             DB::table('caffeine_intakes')->insert([
                 'user_id'               => 1,
